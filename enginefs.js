@@ -25,7 +25,7 @@ var GuessFileIdx = require("./lib/guessFileIdx")
 
 var spoofedPeerId = require("./lib/spoofPeerId")
 
-var safeStatelessRegex = require('./lib/regex')
+var safeStatelessRegex = require('safe-stateless-regex')
 
 var IH_REGEX = new RegExp("([0-9A-Fa-f]){40}", "g");
 
